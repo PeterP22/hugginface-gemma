@@ -6,6 +6,9 @@ A simple local implementation of Google's Gemma 2B model that talks like a frien
 To get started, install the necessary libraries:
 `pip install transformers torch`
 
+Login via cli using your access token from your huggingface account:
+`huggingface-cli login`
+
 ## Usage
 
 - **test.py** will download the model.
