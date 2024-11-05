@@ -11,8 +11,8 @@ Login via cli using your access token from your huggingface account:
 
 ## Usage
 
-- **test.py** will download the model.
-- **main.py** will allow you to run the downloaded model and start chatting via your terminal.
+- **main.py** will download the model.
+- **test.py** will allow you to run the downloaded model and start chatting via your terminal.
 
 ## 💬 Example Interaction
 
