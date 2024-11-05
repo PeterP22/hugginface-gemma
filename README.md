@@ -14,6 +14,9 @@ Login via cli using your access token from your huggingface account:
 - **main.py** will download the model.
 - **test.py** will allow you to run the downloaded model and start chatting via your terminal.
 
+## Update
+I have added in chat history for the 3 most recent messages to make sure we do not exceed the max_tokens. This means you can ask follow up questions and have more of a personalised conversation with Gemma.
+
 ## 💬 Example Interaction
 
 **You:** How does machine learning work?
@@ -22,4 +25,4 @@ Login via cli using your access token from your huggingface account:
 Reckon it's like training a horse - you give it lots of examples and practice, and it learns patterns over time.  
 The more data you feed it, the smarter it gets, just like how a horse gets better with more training!
 
-# Update: I have added in chat history for the 3 most recent messages to make sure we do not exceed the max_tokens. This means you can ask follow up questions and have more of a personalised conversation with gemma.
+
